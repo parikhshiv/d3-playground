@@ -1,0 +1,18 @@
+.title {
+    color: #555;
+    font-weight: 200;
+    white-space: nowrap;
+    margin-top: 20px;
+    font: 32px/1.5em "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
