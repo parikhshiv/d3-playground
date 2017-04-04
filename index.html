@@ -4,14 +4,30 @@
         <link rel="stylesheet" type="text/css" href="./play.css">
     </head>
     <body>
-        <div>
-            <h1 class="title">D3 Playground</h1>
+        <h1 class="title">D3 Playground</h1>
+        <div class="sandbox-container">
+            <div class="sandbox">
+                <h2>Sandbox 1</h2>
+                <svg class="chart chart-top-left"></svg>
+            </div>
+            <div class="sandbox">
+                <h2>Sandbox 2</h2>
+                <svg class="chart chart-top-right"></svg>
+            </div>
+            <div class="sandbox">
+                <h2>Sandbox 3</h2>
+                <svg class="chart chart-bottom-left"></svg>
+            </div>
+            <div class="sandbox">
+                <h2>Sandbox 4</h2>
+                <svg class="chart chart-bottom-right"></svg>
+            </div>
         </div>
 
-        <svg class="chart"></svg>
-        
-
         <script src="https://d3js.org/d3.v4.min.js"></script>
-        <script type="text/javascript" src="./play.js"></script>
+        <script type="text/javascript" src="./charts/top-left.js"></script>
+        <script type="text/javascript" src="./charts/top-right.js"></script>
+        <script type="text/javascript" src="./charts/bottom-left.js"></script>
+        <script type="text/javascript" src="./charts/bottom-right.js"></script>
     </body>
 </html>
